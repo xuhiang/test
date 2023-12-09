@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="欢迎观看我们的分享">
+		<link rel="stylesheet" href="css/style.css">
+		<title>科学家生平 | 练习</title>
+	</head>
+	<body>
+		<header>
+			<nav id="navbar">
+				<div class="container">
+					<h1><a href="index.html">科学家生平</a></h1>
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="first.html">迈克尔·法拉第</a></li>
+						<li><a href="https://v.douyin.com/idv4GTYp/" target="_blank">拓展</a></li>
+						<li><a class=" current" href="end.html">练习</a></li>
+					</ul>
+				</div>
+			</nav>
+			<section id="contact-form">
+				<div class="container">
+					<h1 class="l-heading"><span class="text-primary">答题</span>环节</h1>
+					<p>法拉第在哪一年提出了什么设想？</p>
+					<form action="#" name="form1">
+					<div class="form-group">
+						<label for="name">姓名</label>
+						<input type="text" name="name">
+						
+					</div>
+					<div class="form-group">
+						<label for="message">你的答案</label>
+						<textarea type="text" name="message" id="message"></textarea>
+					</div>
+					<button class="btn" type="submit" value="sighting" onclick="formResults(this.form)">提交</button>
+					<p> </p>
+					</form>
+					<div><a class="btn" href="pigai.html">批改</a></div>
+					<p> </p>
+				</div>
+				<a class="btn" href="end 2.html">下一题</a>
+				<p> </p>
+			</section>
+		<footer id="copy">
+			<p>分享网页 &copy; All right Recerved.</p>
+			<p>制作属：陈烁天、孙榕、石怀硕</p>
+		</footer>
+		<script type="text/javascript">
+			function formResults(form){
+				let name = form.name. value
+				let massage = form.message.value
+				document.write(massage)
+				alert(name)
+			}
+
+		</script>
+	</body>
+</html>
